@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    background-color: rgb(5, 5, 77);
+    color: white;
+    font-family:"Poppins", sans-serif;
+    width: 100%;
+    margin: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(35, 35, 104);
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:  0 26px;
+    font-size : 1rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color:var(--color-primary);
+}
+
+
+.left{
+    font-size: 2rem;
+}
+.first-header{
+    display: flex;
+    justify-content: space-around;
+    margin:  23px 0;
+    margin-top: 50px;
+}
+.unique{
+    color: rgb(54, 220, 54) ;
+    text-shadow:0 1px 20px blueviolet;
+}
+.first-header > div{
+    width: 30%;
+    font-size: 3rem;
+}
+.header-left{
+    width: 34px;
+    margin-top: 100px;
+    margin: 30px 0;
+}
+.header-right img{
+     width: 90%;
+     margin: 60px 0;
+}
+#element{
+    color: rgb(39, 242, 39);
+}
+p{
+    color: white;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+section>h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+    .about-container p{
+        
+        margin: 4px auto;
+        width: 62%;
+        position: absolute;
+        margin-left: 21%;
+        font-style:normal;
+        font-weight: 55px;
+        text-align: center;
+        font-size: 25px;
+    
+        
+    }
+    .about-content{
+        margin-top: 600%;
+        margin: 280px 18%;
+        display: grid;
+        display: table-row;
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        float: left;
+        width: 33.33;
+
+    }
+    .about-article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: table-row;
+        display: grid;
+        margin-top: auto;
+        text-align: center;
+        gap: 10px;
+
+    }
+    .about-article img{
+       width: 150px; 
+    }
+
+
